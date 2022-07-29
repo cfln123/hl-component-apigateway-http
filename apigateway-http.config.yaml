@@ -9,6 +9,3 @@
 #     limit: 10000
 #     offset: 0
 #     period: DAY
-
-custom_dns_prefix: rs
-dns_format: "api.${EnvironmentName}.${DnsDomain}"
