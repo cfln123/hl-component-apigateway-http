@@ -1,0 +1,8 @@
+test_metadata:
+  type: config
+  name: custom-domain
+  description: has a custom-domain
+
+custom_dns: 'true'
+custom_dns_prefix: api
+api_path_prefix: api

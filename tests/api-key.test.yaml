@@ -1,0 +1,14 @@
+test_metadata:
+  type: config
+  name: api-key
+  description: create a api key and usage plan
+
+api_key:
+  key_value: '{{resolve:ssm-secure:MY_API_KEY_VALUE:1}}'
+  throttle_settings:
+    burst_limit: 10000
+    rate_limit: 5000
+  quota:
+    limit: 10000
+    offset: 0
+    period: DAY
